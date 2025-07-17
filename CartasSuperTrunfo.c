@@ -40,11 +40,11 @@ int main() {
     scanf("%s", &nome_2);
     printf("Jogador 2 Digite o nome População da Segunda carta- numero inteiro:\n");
     scanf("%d", &populacao_2);
-    printf("ogador 2 Digite a área em Km² da Segunda carta - com separador decimal ponto final:\n");
+    printf("Jogador 2 Digite a área em Km² da Segunda carta - com separador decimal ponto final:\n");
     scanf("%f", &area_2);
-    printf("ogador 2 Digite o Valor do PIB Abreviado em Bilhoes de Reais da Segunda carta - com separador decimal ponto final:\n");
+    printf("Jogador 2 Digite o Valor do PIB Abreviado em Bilhoes de Reais da Segunda carta - com separador decimal ponto final:\n");
     scanf("%f", &PIB_2);
-    printf("ogador 2 Digite o a quantidade de pontos  turisticos da Segunda carta- numero inteiro:\n");
+    printf("Jogador 2 Digite o a quantidade de pontos  turisticos da Segunda carta- numero inteiro:\n");
     scanf("%d", &pontos_turisticos_2);
     printf("\n");
     // Exibição dos Dados das Cartas:
