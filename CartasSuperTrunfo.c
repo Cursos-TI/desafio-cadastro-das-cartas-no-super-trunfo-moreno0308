@@ -12,8 +12,8 @@ int main() {
 
     //Estou declarando as variaveis como mencionados na aulas 
     int codigo_da_cidade_1 = 1, codigo_da_cidade_2 = 2; //essas variaveis não serão informadas pelo usuario serão fixas
-    int população_1 = 10000, populacao_2 = 20000, pontos_turisticos_1 = 3, pontos_turisticos_2 = 2;//cadastro das vareaveis de população e ponto turisticos 
-    float area_1 = 12365.12, area_2 = 1234.15, PIB_1 = 5000 , PIB_2 = 5000;// cadastro dos pontos flutuantes area e PIB
+    int população_1, populacao_2, pontos_turisticos_1, pontos_turisticos_2;//cadastro das vareaveis de população e ponto turisticos 
+    float area_1, area_2, PIB_1, PIB_2;// cadastro dos pontos flutuantes area e PIB
     char  nome_1[25] = "Cidade 1", nome_2[25] = "Cidade 2"; //nomes das cidades
     char estado_1 = 'A', estado_2 = 'B';
 
@@ -22,29 +22,29 @@ int main() {
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
     //abaixo dados da primaira carta
     printf("Jogador 1 digite os dados da Primeira carta.\n");
-    printf("Jogador 1 Digite o nome da cidade da primeira carta:\n");
+    printf("Jogador 1 Digite o nome da cidade da primeira carta - Apenas Letras:\n");
     scanf("%s", &nome_1);
-    printf("Jogador 1 Digite o nome População da primeira carta:\n");
+    printf("Jogador 1 Digite o nome População da primeira carta - numero inteiro:\n");
     scanf("%d", &população_1);
-    printf("Jogador 1 Digite a área em Km² da primeira carta:\n");
+    printf("Jogador 1 Digite a área em Km² da primeira carta - com separador decimal ponto final:\n");
     scanf("%f", &area_1);
-    printf("Jogador 1 Digite o Valor do PIB Abreviado em Bilhoes de Reais da primeira carta:\n");
+    printf("Jogador 1 Digite o Valor do PIB Abreviado em Bilhoes de Reais da primeira carta - com separador decimal ponto final:\n");
     scanf("%f", &PIB_1);
-    printf("Jogador 1 Digite o a quantidade de pontos  turisticos da primeira carta:\n");
+    printf("Jogador 1 Digite o a quantidade de pontos  turisticos da primeira carta - numero inteiro:\n");
     scanf("%d", &pontos_turisticos_1);
     printf("\n");
 
      //abaixo dados da segunda carta
     printf("Jogador 2 digite os dados da Segunda carta.\n");
-    printf("Jogador 2 Digite o nome da cidade da Segunda carta:\n");
+    printf("Jogador 2 Digite o nome da cidade da Segunda carta - Apenas Letras:\n");
     scanf("%s", &nome_2);
-    printf("ogador 2 Digite o nome População da Segunda carta:\n");
+    printf("Jogador 2 Digite o nome População da Segunda carta- numero inteiro:\n");
     scanf("%d", &populacao_2);
-    printf("ogador 2 Digite a área em Km² da Segunda carta:\n");
+    printf("ogador 2 Digite a área em Km² da Segunda carta - com separador decimal ponto final:\n");
     scanf("%f", &area_2);
-    printf("ogador 2 Digite o Valor do PIB Abreviado em Bilhoes de Reais da Segunda carta:\n");
+    printf("ogador 2 Digite o Valor do PIB Abreviado em Bilhoes de Reais da Segunda carta - com separador decimal ponto final:\n");
     scanf("%f", &PIB_2);
-    printf("ogador 2 Digite o a quantidade de pontos  turisticos da Segunda carta:\n");
+    printf("ogador 2 Digite o a quantidade de pontos  turisticos da Segunda carta- numero inteiro:\n");
     scanf("%d", &pontos_turisticos_2);
     printf("\n");
     // Exibição dos Dados das Cartas:
