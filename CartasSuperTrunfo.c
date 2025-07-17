@@ -11,11 +11,11 @@ int main() {
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
 
     //Estou declarando as variaveis como mencionados na aulas 
-    int código_da_cidade_1 = 1, código_da_cidade_2 = 2; //essas variaveis não serão informadas pelo usuario serão fixas
-    int população_1 = 10000, população_2 = 20000, pontos_turísticos_1 = 3, pontos_turísticos_2 = 2;//cadastro das vareaveis de população e ponto turisticos 
-    float área_1 = 12365.12, área_2 = 1234.15, PIB_1 = 5000 , PIB_2 = 5000;// cadastro dos pontos flutuantes area e PIB
-    char  nome_1 = "Cidade 1", nome_2 = "Cidade 2"; //nomes das cidades
-    char estado_1 = "A", estado_2 = "B";
+    int codigo_da_cidade_1 = 1, codigo_da_cidade_2 = 2; //essas variaveis não serão informadas pelo usuario serão fixas
+    int população_1 = 10000, populacao_2 = 20000, pontos_turisticos_1 = 3, pontos_turisticos_2 = 2;//cadastro das vareaveis de população e ponto turisticos 
+    float area_1 = 12365.12, area_2 = 1234.15, PIB_1 = 5000 , PIB_2 = 5000;// cadastro dos pontos flutuantes area e PIB
+    char  nome_1[25] = "Cidade 1", nome_2[25] = "Cidade 2"; //nomes das cidades
+    char estado_1 = 'A', estado_2 = 'B';
 
     // Cadastro das Cartas:
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
@@ -26,11 +26,11 @@ int main() {
     printf("Digite o nome População da primeira carta:\n");
     scanf("%d", &população_1);
     printf("Digite a área em Km² da primeira carta:\n");
-    scanf("%f", &área_1);
+    scanf("%f", &area_1);
     printf("Digite o Valor do PIB Abreviado em Bilhoes de Reais da primeira carta:\n");
     scanf("%f", &PIB_1);
     printf("Digite o a quantidade de pontos  turisticos da primeira carta:\n");
-    scanf("%d", &pontos_turísticos_1);
+    scanf("%d", &pontos_turisticos_1);
     printf("\n");
 
     // Exibição dos Dados das Cartas:
@@ -38,15 +38,11 @@ int main() {
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
     printf("abaixo sera exibida os dados da cartas:\n");
     printf("\n");
-    printf("Carta: %d\n", código_da_cidade_1);
+    printf("Carta: %d\n", codigo_da_cidade_1);
     printf("Estado: %s\n", estado_1);
-    printf("Código: %s 0 %d\n", estado_1,código_da_cidade_1);
+    printf("Código: %s 0 %d\n", estado_1,codigo_da_cidade_1);
     printf("Nome da Cidade: %s\n", nome_1);
     printf("População: %d\n Pessoas", população_1);
-    
-
-
-
 
     return 0;
 }
