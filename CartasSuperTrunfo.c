@@ -21,7 +21,7 @@ int main() {
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
     //abaixo dados da primaira carta
-    printf("Jogador 1 digite os dados da Primeira carta:\n");
+    printf("Jogador 1 digite os dados da Primeira carta.\n");
     printf("Jogador 1 Digite o nome da cidade da primeira carta:\n");
     scanf("%s", &nome_1);
     printf("Jogador 1 Digite o nome População da primeira carta:\n");
@@ -35,8 +35,8 @@ int main() {
     printf("\n");
 
      //abaixo dados da segunda carta
-    printf("Jogador 2 digite os dados da Segunda carta:\n");
-    printf("ogador 2 Digite o nome da cidade da Segunda carta:\n");
+    printf("Jogador 2 digite os dados da Segunda carta.\n");
+    printf("Jogador 2 Digite o nome da cidade da Segunda carta:\n");
     scanf("%s", &nome_2);
     printf("ogador 2 Digite o nome População da Segunda carta:\n");
     scanf("%d", &populacao_2);
@@ -71,7 +71,7 @@ int main() {
     printf("Estado: %c\n", estado_2);
     printf("Código: %c0%d\n", estado_1,codigo_da_cidade_2);
     printf("Nome da Cidade: %s\n", nome_2);
-    printf("População: %d\n Pessoas", população_2);
+    printf("População: %d\n Pessoas", populacao_2);
     printf("Área: %.2f Km²\n", area_2); // Formatação para 2 casas decimais.
     printf("PIB: %.2f Bilhões de Reais\n", PIB_2); // Formatação para 2 casas decimais.
     printf("Pontos Turísticos: %d\n", pontos_turisticos_2);
