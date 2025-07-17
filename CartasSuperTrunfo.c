@@ -24,13 +24,13 @@ int main() {
     printf("Jogador 1 digite os dados da Primeira carta.\n");
     printf("Jogador 1 Digite o nome da cidade da primeira carta - Apenas Letras:\n");
     scanf("%s", &nome_1);
-    printf("Jogador 1 Digite o nome População da primeira carta - numero inteiro:\n");
+    printf("Jogador 1 Digite a População da primeira carta - numero inteiro:\n");
     scanf("%d", &população_1);
     printf("Jogador 1 Digite a área em Km² da primeira carta - com separador decimal ponto final:\n");
     scanf("%f", &area_1);
     printf("Jogador 1 Digite o Valor do PIB Abreviado em Bilhoes de Reais da primeira carta - com separador decimal ponto final:\n");
     scanf("%f", &PIB_1);
-    printf("Jogador 1 Digite o a quantidade de pontos  turisticos da primeira carta - numero inteiro:\n");
+    printf("Jogador 1 Digite a quantidade de pontos  turisticos da primeira carta - numero inteiro:\n");
     scanf("%d", &pontos_turisticos_1);
     printf("\n");
 
@@ -38,13 +38,13 @@ int main() {
     printf("Jogador 2 digite os dados da Segunda carta.\n");
     printf("Jogador 2 Digite o nome da cidade da Segunda carta - Apenas Letras:\n");
     scanf("%s", &nome_2);
-    printf("Jogador 2 Digite o nome População da Segunda carta- numero inteiro:\n");
+    printf("Jogador 2 Digite a População da Segunda carta- numero inteiro:\n");
     scanf("%d", &populacao_2);
     printf("Jogador 2 Digite a área em Km² da Segunda carta - com separador decimal ponto final:\n");
     scanf("%f", &area_2);
     printf("Jogador 2 Digite o Valor do PIB Abreviado em Bilhoes de Reais da Segunda carta - com separador decimal ponto final:\n");
     scanf("%f", &PIB_2);
-    printf("Jogador 2 Digite o a quantidade de pontos  turisticos da Segunda carta- numero inteiro:\n");
+    printf("Jogador 2 Digite a quantidade de pontos  turisticos da Segunda carta- numero inteiro:\n");
     scanf("%d", &pontos_turisticos_2);
     printf("\n");
     // Exibição dos Dados das Cartas:
