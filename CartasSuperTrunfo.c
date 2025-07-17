@@ -20,23 +20,38 @@ int main() {
     // Cadastro das Cartas:
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    printf("Jogador Abaixo digite os dados da Primeira carta:\n");
-    printf("Digite o nome da cidade da primeira carta:\n");
+    //abaixo dados da primaira carta
+    printf("Jogador 1 digite os dados da Primeira carta:\n");
+    printf("Jogador 1 Digite o nome da cidade da primeira carta:\n");
     scanf("%s", &nome_1);
-    printf("Digite o nome População da primeira carta:\n");
+    printf("Jogador 1 Digite o nome População da primeira carta:\n");
     scanf("%d", &população_1);
-    printf("Digite a área em Km² da primeira carta:\n");
+    printf("Jogador 1 Digite a área em Km² da primeira carta:\n");
     scanf("%f", &area_1);
-    printf("Digite o Valor do PIB Abreviado em Bilhoes de Reais da primeira carta:\n");
+    printf("Jogador 1 Digite o Valor do PIB Abreviado em Bilhoes de Reais da primeira carta:\n");
     scanf("%f", &PIB_1);
-    printf("Digite o a quantidade de pontos  turisticos da primeira carta:\n");
+    printf("Jogador 1 Digite o a quantidade de pontos  turisticos da primeira carta:\n");
     scanf("%d", &pontos_turisticos_1);
     printf("\n");
 
+     //abaixo dados da segunda carta
+    printf("Jogador 2 digite os dados da Segunda carta:\n");
+    printf("ogador 2 Digite o nome da cidade da Segunda carta:\n");
+    scanf("%s", &nome_2);
+    printf("ogador 2 Digite o nome População da Segunda carta:\n");
+    scanf("%d", &populacao_2);
+    printf("ogador 2 Digite a área em Km² da Segunda carta:\n");
+    scanf("%f", &area_2);
+    printf("ogador 2 Digite o Valor do PIB Abreviado em Bilhoes de Reais da Segunda carta:\n");
+    scanf("%f", &PIB_2);
+    printf("ogador 2 Digite o a quantidade de pontos  turisticos da Segunda carta:\n");
+    scanf("%d", &pontos_turisticos_2);
+    printf("\n");
     // Exibição dos Dados das Cartas:
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
-    printf("abaixo sera exibida os dados da cartas:\n");
+    //abaixo valores da primeira caixa jogador 1
+    printf("abaixo sera exibida os dados da Primeira carta Jogador 1:\n");
     printf("\n");
     printf("Carta: %d\n", codigo_da_cidade_1);
     printf("Estado: %c\n", estado_1);
@@ -47,8 +62,21 @@ int main() {
     printf("PIB: %.2f Bilhões de Reais\n", PIB_1); // Formatação para 2 casas decimais.
     printf("Pontos Turísticos: %d\n", pontos_turisticos_1);
 
-    printf("\n"); // Adiciona uma linha em branco para melhor leitura.
+    printf("\n"); // Adicionei uma linha em branco para melhor leitura.
 
+    //abaixo valores da primeira caixa jogador 1
+    printf("abaixo sera exibida os dados da Segunda carta Jogador 2:\n");
+    printf("\n");
+    printf("Carta: %d\n", codigo_da_cidade_2);
+    printf("Estado: %c\n", estado_2);
+    printf("Código: %c0%d\n", estado_1,codigo_da_cidade_2);
+    printf("Nome da Cidade: %s\n", nome_2);
+    printf("População: %d\n Pessoas", população_2);
+    printf("Área: %.2f Km²\n", area_2); // Formatação para 2 casas decimais.
+    printf("PIB: %.2f Bilhões de Reais\n", PIB_2); // Formatação para 2 casas decimais.
+    printf("Pontos Turísticos: %d\n", pontos_turisticos_2);
+
+    printf("\n"); // Adicionei uma linha em branco para melhor leitura.
 
     return 0;
 }
