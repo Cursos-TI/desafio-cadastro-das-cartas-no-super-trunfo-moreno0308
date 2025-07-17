@@ -39,10 +39,16 @@ int main() {
     printf("abaixo sera exibida os dados da cartas:\n");
     printf("\n");
     printf("Carta: %d\n", codigo_da_cidade_1);
-    printf("Estado: %s\n", estado_1);
-    printf("Código: %s 0 %d\n", estado_1,codigo_da_cidade_1);
+    printf("Estado: %c\n", estado_1);
+    printf("Código: %c0%d\n", estado_1,codigo_da_cidade_1);
     printf("Nome da Cidade: %s\n", nome_1);
     printf("População: %d\n Pessoas", população_1);
+    printf("Área: %.2f Km²\n", area_1); // Formatação para 2 casas decimais.
+    printf("PIB: %.2f Bilhões de Reais\n", PIB_1); // Formatação para 2 casas decimais.
+    printf("Pontos Turísticos: %d\n", pontos_turisticos_1);
+
+    printf("\n"); // Adiciona uma linha em branco para melhor leitura.
+
 
     return 0;
 }
