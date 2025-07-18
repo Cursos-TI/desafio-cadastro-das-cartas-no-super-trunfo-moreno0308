@@ -12,8 +12,8 @@ int main() {
 
     //Estou declarando as variaveis como mencionados na aulas 
     int codigo_da_cidade_1 = 1, codigo_da_cidade_2 = 2; //essas variaveis não serão informadas pelo usuario serão fixas
-    int população_1, populacao_2, pontos_turisticos_1, pontos_turisticos_2;//cadastro das vareaveis de população e ponto turisticos 
-    float area_1, area_2, PIB_1, PIB_2;// cadastro dos pontos flutuantes area e PIB
+    int população_1 = 1000, populacao_2 = 1000, pontos_turisticos_1 = 2, pontos_turisticos_2 = 2;//cadastro das vareaveis de população e ponto turisticos 
+    float area_1, area_2 = 000.00, PIB_1, PIB_2 = 00.00;// cadastro dos pontos flutuantes area e PIB
     char  nome_1[25] = "Cidade 1", nome_2[25] = "Cidade 2"; //nomes das cidades
     char estado_1 = 'A', estado_2 = 'B';
 
@@ -57,7 +57,7 @@ int main() {
     printf("Estado: %c\n", estado_1);
     printf("Código: %c0%d\n", estado_1,codigo_da_cidade_1);
     printf("Nome da Cidade: %s\n", nome_1);
-    printf("População: %d\n Pessoas", população_1);
+    printf("População: %d Pessoas\n", população_1);
     printf("Área: %.2f Km²\n", area_1); // Formatação para 2 casas decimais.
     printf("PIB: %.2f Bilhões de Reais\n", PIB_1); // Formatação para 2 casas decimais.
     printf("Pontos Turísticos: %d\n", pontos_turisticos_1);
@@ -71,7 +71,7 @@ int main() {
     printf("Estado: %c\n", estado_2);
     printf("Código: %c0%d\n", estado_1,codigo_da_cidade_2);
     printf("Nome da Cidade: %s\n", nome_2);
-    printf("População: %d\n Pessoas", populacao_2);
+    printf("População: %d Pessoas\n", populacao_2);
     printf("Área: %.2f Km²\n", area_2); // Formatação para 2 casas decimais.
     printf("PIB: %.2f Bilhões de Reais\n", PIB_2); // Formatação para 2 casas decimais.
     printf("Pontos Turísticos: %d\n", pontos_turisticos_2);
