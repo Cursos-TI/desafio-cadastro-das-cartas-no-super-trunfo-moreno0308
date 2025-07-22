@@ -12,7 +12,7 @@ int main() {
 
     //Estou declarando as variaveis como mencionados na aulas 
     int codigo_da_cidade_1 = 1, codigo_da_cidade_2 = 2; //essas variaveis não serão informadas pelo usuario serão fixas
-    int população_1 = 1000, populacao_2 = 1000, pontos_turisticos_1 = 2, pontos_turisticos_2 = 2;//cadastro das vareaveis de população e ponto turisticos 
+    int populacao_1 = 1000, populacao_2 = 1000, pontos_turisticos_1 = 2, pontos_turisticos_2 = 2;//cadastro das vareaveis de população e ponto turisticos 
     float area_1, area_2 = 000.00, PIB_1, PIB_2 = 00.00;// cadastro dos pontos flutuantes area e PIB
     char  nome_1[25] = "Cidade 1", nome_2[25] = "Cidade 2"; //nomes das cidades
     char estado_1 = 'A', estado_2 = 'B';
@@ -25,7 +25,7 @@ int main() {
     printf("Jogador 1 Digite o nome da cidade da primeira carta - Apenas Letras:\n");
     scanf("%s", &nome_1);
     printf("Jogador 1 Digite a População da primeira carta - numero inteiro:\n");
-    scanf("%d", &população_1);
+    scanf("%d", &populacao_1);
     printf("Jogador 1 Digite a área em Km² da primeira carta - com separador decimal ponto final:\n");
     scanf("%f", &area_1);
     printf("Jogador 1 Digite o Valor do PIB Abreviado em Bilhoes de Reais da primeira carta - com separador decimal ponto final:\n");
@@ -57,7 +57,7 @@ int main() {
     printf("Estado: %c\n", estado_1);
     printf("Código: %c0%d\n", estado_1,codigo_da_cidade_1);
     printf("Nome da Cidade: %s\n", nome_1);
-    printf("População: %d Pessoas\n", população_1);
+    printf("População: %d Pessoas\n", populacao_1);
     printf("Área: %.2f Km²\n", area_1); // Formatação para 2 casas decimais.
     printf("PIB: %.2f Bilhões de Reais\n", PIB_1); // Formatação para 2 casas decimais.
     printf("Pontos Turísticos: %d\n", pontos_turisticos_1);
