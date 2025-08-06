@@ -4,6 +4,7 @@
 // Tema 1 - Cadastro das Cartas
 // Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
 // Siga os comentários para implementar cada parte do desafio.
+//Teste larissa
 
 int main() {
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
@@ -15,6 +16,7 @@ int main() {
     float area_1, area_2 = 000.00, PIB_1, PIB_2 = 00.00;// cadastro dos pontos flutuantes area e PIB
     char  nome_1[25] = "Cidade 1", nome_2[25] = "Cidade 2"; //nomes das cidades
     char estado_1 = 'A', estado_2 = 'B';
+    float SuperPoder_A = 15.00, SuperPoder_B = 15.00;
 
     // Cadastro das Cartas:
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
@@ -33,7 +35,7 @@ int main() {
     scanf("%d", &pontos_turisticos_1);
     printf("\n");
     float  Densidade_Populacional_1 = (float) populacao_1 / area_1; //calculo desnsidade populacional
-    float PIB_per_Capita_1 = (float) PIB_1 / populacao_1; // calculo PIB per capita
+    float PIB_per_Capita_1 = (float) (PIB_1 * 1000000000) / populacao_1; // calculo PIB per capita
      //abaixo dados da segunda carta
     printf("Jogador 2 digite os dados da Segunda carta.\n");
     printf("Jogador 2 Digite o nome da cidade da Segunda carta - Apenas Letras:\n");
@@ -48,7 +50,7 @@ int main() {
     scanf("%d", &pontos_turisticos_2);
     printf("\n");
     float  Densidade_Populacional2 = (float) populacao_2 / area_2; //calculo media desnsidade populacional
-    float PIB_per_Capita_2 = (float) PIB_2 / populacao_2; // calculo PIB per capita
+    float PIB_per_Capita_2 = (float) (PIB_2 * 1000000000) / populacao_2; // calculo PIB per capita
 
     // Exibição dos Dados das Cartas:
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
@@ -64,6 +66,8 @@ int main() {
     printf("Área: %.2f Km²\n", area_1); // Formatação para 2 casas decimais.
     printf("PIB: %.2f Bilhões de Reais\n", PIB_1); // Formatação para 2 casas decimais.
     printf("Número Pontos Turísticos: %d\n", pontos_turisticos_1);
+    printf("Densidade Populacional: %.2f hab/km²\n", Densidade_Populacional_1);
+    printf("PIB per Capita: %.2f reais\n", PIB_per_Capita_1);
 
     printf("\n"); // Adicionei uma linha em branco para melhor leitura.
 
@@ -78,6 +82,8 @@ int main() {
     printf("Área: %.2f Km²\n", area_2); // Formatação para 2 casas decimais.
     printf("PIB: %.2f Bilhões de Reais\n", PIB_2); // Formatação para 2 casas decimais.
     printf("Número Pontos Turísticos: %d\n", pontos_turisticos_2);
+    printf("Densidade Populacional: %.2f hab/km²\n", Densidade_Populacional2);//exibição da Densidade Populacional
+    printf("PIB per Capita: %.2f reais\n", PIB_per_Capita_2);// exibição da Densidade PIB per Capita
 
     printf("\n"); // Adicionei uma linha em branco para melhor leitura.
 
