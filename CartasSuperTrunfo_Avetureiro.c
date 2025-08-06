@@ -4,7 +4,6 @@
 // Tema 1 - Cadastro das Cartas
 // Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
 // Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
 
 int main() {
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
@@ -33,7 +32,8 @@ int main() {
     printf("Jogador 1 Digite a quantidade de pontos  turisticos da primeira carta - numero inteiro:\n");
     scanf("%d", &pontos_turisticos_1);
     printf("\n");
-
+    float  Densidade_Populacional_1 = (float) populacao_1 / area_1; //calculo desnsidade populacional
+    float PIB_per_Capita_1 = (float) PIB_1 / populacao_1; // calculo PIB per capita
      //abaixo dados da segunda carta
     printf("Jogador 2 digite os dados da Segunda carta.\n");
     printf("Jogador 2 Digite o nome da cidade da Segunda carta - Apenas Letras:\n");
@@ -47,6 +47,9 @@ int main() {
     printf("Jogador 2 Digite a quantidade de pontos  turisticos da Segunda carta- numero inteiro:\n");
     scanf("%d", &pontos_turisticos_2);
     printf("\n");
+    float  Densidade_Populacional2 = (float) populacao_2 / area_2; //calculo media desnsidade populacional
+    float PIB_per_Capita_2 = (float) PIB_2 / populacao_2; // calculo PIB per capita
+
     // Exibição dos Dados das Cartas:
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
@@ -60,7 +63,7 @@ int main() {
     printf("População: %d Pessoas\n", populacao_1);
     printf("Área: %.2f Km²\n", area_1); // Formatação para 2 casas decimais.
     printf("PIB: %.2f Bilhões de Reais\n", PIB_1); // Formatação para 2 casas decimais.
-    printf("Pontos Turísticos: %d\n", pontos_turisticos_1);
+    printf("Número Pontos Turísticos: %d\n", pontos_turisticos_1);
 
     printf("\n"); // Adicionei uma linha em branco para melhor leitura.
 
@@ -74,7 +77,7 @@ int main() {
     printf("População: %d Pessoas\n", populacao_2);
     printf("Área: %.2f Km²\n", area_2); // Formatação para 2 casas decimais.
     printf("PIB: %.2f Bilhões de Reais\n", PIB_2); // Formatação para 2 casas decimais.
-    printf("Pontos Turísticos: %d\n", pontos_turisticos_2);
+    printf("Número Pontos Turísticos: %d\n", pontos_turisticos_2);
 
     printf("\n"); // Adicionei uma linha em branco para melhor leitura.
 
